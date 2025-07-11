@@ -1,41 +1,80 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-.img_perfil{
+.img_perfil {
     height: 20vmin;
     width: 20vmin;
     float: left;
 }
-.links_cabeçalho{
-text-decoration: none;    
-}
-nav{
-text-decoration: none;  
-}
-nav ul{
-list-style: none;
-}
-nav ul li{
 
+.img_carrinho {
+    height: 5vmin;
+    width: 5vmin;
+    position: absolute;
+    top: 15px;
+    right: 40px;
 }
+
+.link_home {
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+}
+
+.link_tres_pontinhos {
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    right: 120px;
+}
+
+.pesquisa {
+    height: 30px;
+    width: 650px;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+}
+
+nav {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {}
+
+nav ul li a {
+    display: block;
+}
+
 a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  transition: all 0.3s ease; /* Adiciona transição suave */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    /* Adiciona transição suave */
 }
+
 a:hover {
-  color: rgb(44, 111, 255);
-  text-decoration: underline;
-  background-color: #f0f0f0; /* Adiciona um fundo sutil */
-  text-decoration: none;
+    color: rgb(44, 111, 255);
+    text-decoration: underline;
+    background-color: #f0f0f0;
+    /* Adiciona um fundo sutil */
+    text-decoration: none;
 }
 
 a:active {
-  color: rgb(43, 241, 255);
-  text-decoration: underline;
-  background-color: rgb(255, 255, 255); /* Fundo escuro no ativo */
-  text-decoration: none;
+    color: rgb(43, 241, 255);
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    /* Fundo escuro no ativo */
+    text-decoration: none;
 }
