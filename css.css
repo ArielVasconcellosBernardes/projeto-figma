@@ -27,14 +27,32 @@ h3 {
     left: 20px;
 }
 
-h2 {
-    text-align: left;
+.titulo1 {
     border: 5px solid #002D8E;
-    width: 300px;
+    width: 162px;
     padding: 10px;
     border-radius: 20px;
     position: relative;
-    left: 20px;
+    left: 110px;
+}
+
+.titulo2{
+    position: relative;
+    border: 5px solid #002D8E;
+    width: 162px;
+    padding: 10px;
+    border-radius: 20px;
+    left: 2170px;
+}
+
+.conteiner{
+    border: 5px solid #002D8E;
+    width: 162px;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 100px;
+    position: relative;
+    left: 60px;
 }
 
 .conteiner-principal{
@@ -43,6 +61,12 @@ h2 {
     gap: 100px;
     position: relative;
     left: 60px;
+}
+section {
+    display: flex; /* coloca as imagens lado a lado */
+    justify-content: center; /* centraliza no meio da página */
+    gap: 20px; /* espaço entre as imagens */
+    margin-top: 30px;
 }
 
 /*      ----------------------------------    */
@@ -85,7 +109,7 @@ h2 {
     width: 300px;
     position: relative;
     float: right;
-    left: 700px;
+    left: 750px;
 }
 
 .imagem-container2 img {
@@ -148,7 +172,7 @@ h2 {
     width: 300px;
     position: relative;
     float: right;
-    left: 700px;
+    left: 750px;
 }
 
 .imagem-container4 img {
