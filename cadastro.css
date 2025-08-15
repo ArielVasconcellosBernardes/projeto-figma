@@ -1,0 +1,209 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #202022;
+    color: white;
+}
+.header {
+    display: flex;
+    gap: 2rem;
+}
+.img {
+    width: 5vmax;
+    max-width: 200px;
+}
+.imgc {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 3vmax;
+    max-width: 100px;
+}
+.links {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 2px;
+    border: 2px solid #002D8E;
+    width: 60px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.linkss {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 2px;
+    border: 2px solid #002D8E;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pesquisa {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    position: relative;
+    top: 40px;
+}
+
+
+
+.foto-login{
+    width: 18vmax;
+    display: block;
+    margin: 0 auto;
+    
+}
+/* email*/
+.email{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 110px;
+}
+/* nome*/
+.nome{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 70px;
+}
+/* nome de usuário*/
+.usuário{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+}
+/* cpf/cnpj*/
+.cpfcnpj{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 90px;
+}
+/* cep*/
+.cep{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+}
+/* senha*/
+.senha{
+    padding: 14px;
+    height: 70%;
+    width: 60%;
+    border: 7px solid #002D8E;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+}
+/*.imgs{
+    display: grid;
+    width: 5vmax;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 44px;
+    width: 50px;
+    
+}
+.outras-opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+}
+.imgo{
+    width: 150px;
+    height: 120px;
+    border: 5px solid #002D8E;
+    border-radius: 30%;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+}*/
+.entrar{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    border: 4px solid #002D8E;
+    border-radius: 4px;
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+
+    position: relative;
+    top: 140px;
+}
+.logine{
+    text-align: center;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    height: 60px;
+    top: 40px;
+    font-size: 50px;
+    border: 4px solid #002D8E;
+    border-radius: 40px;
+}
+.cadastre-se{
+    text-align: center;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    height: 60px;
+    top: 80px;
+    font-size: 30px;
+}
