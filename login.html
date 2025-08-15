@@ -7,26 +7,42 @@
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="css.css">
 </head>
+<header>
+    <div class="header">
+        <input type="search" name="pesquisa" placeholder="O que deseja pesquisar?" class="pesquisa">
+        <a href="http://127.0.0.1:3000/index.html" class="links">
+            <p>Home</p>
+        </a>
+        <a href="http://127.0.0.1:3000/produto.html" class="linkss">
+            <p>...</p>
+        </a>
+        <a href="http://127.0.0.1:3000/carrinho.html"><img src="imagens/carrinho.png" class="imgc" alt="imagem do carrinho"></a>
+    </div>
+</header>
 
 <body>
-    <img src="imagens/foto_perfil.png" class="foto-login" alt="Foto de perfil">
+    <main>
+        <form>
+            <img src="imagens/foto_perfil.png" class="foto-login" alt="Foto de perfil">
 
-    <div>
-        <input type="email" class="email" name="email" placeholder="Digite seu email">
-    </div>
+            <div>
+                <input type="email" class="email" name="email" placeholder="Digite seu email" required>
+            </div>
 
-    <div>
-        <input type="password" class="senha" placeholder="Digite sua senha"> 
-    </div>
+            <div>
+                <input type="password" class="senha" placeholder="Digite sua senha" required>
+            </div>
+            <input type="submit" class="entrar" value="login">
+        </form>
+        <div class="outras-opcoes">
+            <a href="#"><img src="imagens/google.png" class="imgo" alt="imagem do google"></a>
+            <a href="#"><img src="imagens/face.png" class="imgo" alt="imagem do fecebook"></a>
+            <a href="#"><img src="imagens/aple.png" class="imgo" alt="imagem da aple"></a>
+        </div>
 
-    <div class="outras-opcoes">
-        <a href="#"><img src="imagens/google.png" class="imgo" alt="imagem do google"></a>
-        <a href="#"><img src="imagens/face.png" class="imgo" alt="imagem do fecebook"></a>
-        <a href="#"><img src="imagens/aple.png" class="imgo" alt="imagem da aple"></a>
-    </div>
-
-    <p class="logine">Login</p>
-
-    <p class="cadastre-se">cadastre-se</p>
+        <a href="http://127.0.0.1:3000/cadastre-se.html">
+            <p class="cadastre-se">cadastre-se</p>
+        </a>
+    </main>
 
 </html>
