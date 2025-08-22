@@ -1,0 +1,280 @@
+.header {
+    display: flex;
+    gap: 2rem;
+}
+.imgp {
+    width: 5rem;
+    max-width: 12.5rem; /* 200px */
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #1c8abd22;
+    transition: color 0.2s, background-color 0.2s;
+    font-weight: bold;
+}
+a:active {
+    background-color: #153cbe44;
+}
+.links:hover,
+.linkss:hover {
+    text-decoration: none;
+}
+.imgc {
+    position: relative;
+    top: 1.25rem; /* 20px */
+    right: 1.25rem; /* 20px */
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+    max-width: 6.25rem; /* 100px */
+}
+.links {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 3.75rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.linkss {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+
+.pesquisa {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 1.875rem; /* 30px */
+    padding: 0.75rem; /* 12px */
+    border-radius: 1.25rem; /* 20px */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    position: relative;
+    top: 2.5rem; /* 40px */
+}
+.carrinho {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem; /* 20px */
+    top: 4.375rem; /* 70px */
+    left: 2.5rem; /* 40px */
+    border: 0.125rem solid #000000; /* 2px */
+    border-radius: 1.25rem; /* 20px */
+    width: 50rem; /* 800px */
+    padding: 1.25rem; /* 20px */
+    background-color: #838383;
+}
+
+.img {
+    width: 6.25rem; /* 100px */
+    height: 8.75rem; /* 140px */
+    border-radius: 1.25rem; /* 20px */
+}
+.sinopse {
+    background-color: #838383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    position: relative;
+    left: 1.25rem; /* 20px */
+}
+.conteiner {
+    position: relative;
+    left: 93.75rem; /* 1500px */
+    border: 0.1875rem solid #000000; /* 3px */
+    background-color: #85BE8E;
+    height: 43.75rem; /* 700px */
+    width: 50rem; /* 800px */
+    padding: 2.5rem; /* 40px */
+    border-radius: 1.875rem; /* 30px */
+}
+.preço {
+    position: relative;
+    top: 1.25rem; /* 20px */
+    left: 0.125rem;
+    font-size: 1.5rem;
+    color: #000000;
+    border: 0.125rem solid #000000; /* 2px */
+    background-color: rgb(255, 255, 255);
+    width: 43.75rem; /* 700px */
+    height: 18.75rem; /* 300px */
+    border-radius: 1.875rem; /* 30px */
+}
+.itens{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 1.5rem; /* 24px */
+}
+.compre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 25rem; /* 400px */
+    height: 3.75rem; /* 60px */
+    border: 0.25rem solid #000000; /* 4px */
+    background-color: #00FF73;
+    padding: 0.625rem; /* 10px */
+    border-radius: 1.875rem; /* 30px */
+    color: rgb(0, 0, 0);
+    font-size: 1.875rem; /* 30px */
+    position: relative;
+    top: 3.125rem; /* 50px */
+    text-align: center;
+}
+.ou {
+    display: flex;
+    justify-content: center;
+    background-color: #85BE8E;
+    position: relative;
+    top: 5.625rem; /* 90px */
+    font-size: 2.2rem;
+    color: #000000;
+}
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem; /* 20px */
+    margin-top: 6.25rem; /* 100px */
+    background-color: #85BE8E;
+}
+.imagem {
+    width: 6.25rem; /* 100px */
+    height: 5.625rem; /* 90px */
+    border: 0.3125rem solid #000000; /* 5px */
+    background-color: #ffffff;
+    border-radius: 40%;
+    padding: 1.25rem; /* 20px */
+    margin: 0 auto;
+    position: relative;
+    top: 0rem;
+}
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .imgp {
+        width: 3.5rem;
+        max-width: 6rem;
+    }
+
+    .imgc {
+        width: 2.5rem;
+        max-width: 5rem;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+
+    .links {
+        top: 1rem;
+        left: 0;
+        width: 3.75rem;
+        height: 2rem;
+        padding: 0.4rem;
+    }
+
+    .linkss{
+        top: 1rem;
+        left: 0;
+        width: 2rem;
+        height: 2rem;
+        padding: 0.4rem;
+    }
+
+    .pesquisa {
+        width: 90%;
+        top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .carrinho {
+        flex-direction: column;
+        width: 90%;
+        left: 1rem;
+        top: 2rem;
+        padding: 1rem;
+    }
+
+    .img {
+        width: 5rem;
+        height: auto;
+    }
+
+    .sinopse {
+        font-size: 1rem;
+        left: 0;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .conteiner {
+        width: 95%;
+        left: 0.5rem;
+        top: 5rem;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .preço {
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        right: 2rem;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .itens {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .compre {
+        width: 80%;
+        height: auto;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        top: 3rem;
+    }
+
+    .ou {
+        font-size: 1.5rem;
+        top: 3rem;
+    }
+
+    .imagens {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-top: 2rem;
+        padding: 0.5rem;
+    }
+
+    .imagem {
+        width: 4.5rem;
+        height: 4.5rem;
+        padding: 0.5rem;
+    }
+}

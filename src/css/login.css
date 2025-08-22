@@ -1,0 +1,252 @@
+
+strong{
+    font-size: 1.875rem;
+}
+p {
+    font-size: 1rem;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #1c8abd22;
+    transition: color 0.2s, background-color 0.2s;
+    font-weight: bold;
+}
+a:active {
+    background-color: #153cbe44;
+}
+.img {
+    width: 5rem;
+    max-width: 12.5rem;
+}
+.imgc {
+    position: relative;
+    top: 1.25rem;
+    right: 1.25rem;
+    display: block;
+    margin: 0 auto;
+    width: 3vmax;
+    max-width: 6.25rem;
+}
+.imgm {
+    display: block;
+    margin: 0 auto;
+    width: 9vmax;
+    border-radius: 1.25rem;
+    max-width: 25rem;
+}
+.header {
+    display: flex;
+    gap: 2rem;
+}
+.links {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 3.75rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.linkss {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.links:hover,
+.linkss:hover {
+    text-decoration: none;
+}
+
+.pesquisa {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 1.875rem;
+    padding: 0.75rem;
+    border-radius: 1.25rem;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    position: relative;
+    top: 2.5rem;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foto-login{
+    width: 18rem;
+    display: block;
+    margin: 0 auto;
+    
+}
+.email{
+    padding: 0.875rem;
+    height: 70%;
+    width: 60%;
+    border: 0.438rem solid #002D8E;
+    border-radius: 1.875rem;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.senha{
+    padding: 0.875rem;
+    height: 70%;
+    width: 60%;
+    border: 0.438rem solid #002D8E;
+    border-radius: 1.875rem;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 1.25rem;
+}
+.imgs{
+    display: grid;
+    width: 5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 2.75rem;
+    width: 3.125rem;
+    
+}
+.outras-opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 12.5rem;
+    margin-top: 1.25rem;
+}
+.imgo{
+    width: 9.375rem;
+    height: 7.5rem;
+    border: 0.313rem solid #002D8E;
+    border-radius: 30%;
+    padding: 1.25rem;
+    position: relative;
+    top: 1.875rem;
+}
+.entrar{
+    display: block;
+    margin: 0 auto;
+    width: 12.5rem;
+    height: 3.75rem;
+    border: 0.25rem solid #002D8E;
+    border-radius: 0.25rem;
+    color: white;
+    font-size: 1.875rem;
+    border-radius: 1.875rem;
+
+    position: relative;
+    top: 2.5rem;
+}
+.logine{
+    text-align: center;
+    position: relative;
+    width: 25rem;
+    margin: 0 auto;
+    height: 3.75rem;
+    top: 2.5rem;
+    font-size: 3.125rem;
+    border: 0.25rem solid #002D8E;
+    border-radius: 2.5rem;
+}
+.cadastre-se{
+    text-align: center;
+    position: relative;
+    width: 25rem;
+    margin: 0 auto;
+    height: 3.75rem;
+    top: 5rem;
+    font-size: 1.875rem;
+}
+
+@media (max-width: 600px) {
+    strong {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .logo {
+        position: relative;
+        font-size: 300%;
+        top: 0.4rem;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .links  {
+        width: 3.75rem;
+        height: 2rem;
+        padding: 0.4rem;
+        top: 1rem;
+        left: 0;
+    }
+
+    .linkss{ 
+        width: 2rem;
+        height: 2rem;
+        padding: 0.4rem;
+        top: 1rem;
+        left: 0;
+    }
+    .pesquisa {
+        width: 90%;
+        top: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .imgc{
+        left: 0.01rem;
+        width: 20%;
+        max-width: 100%;
+    }
+
+    .email, .senha {
+        width: 85%;
+        font-size: 0.9rem;
+    }
+
+    .outras-opcoes {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .imgo {
+        width: 7rem;
+        height: 5.5rem;
+        padding: 1rem;
+        left: 10rem;
+    }
+
+    .entrar {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.25rem;
+        top: 2rem;
+    }
+
+    .logine, .cadastre-se {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}

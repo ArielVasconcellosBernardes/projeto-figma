@@ -1,10 +1,3 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #202022;
-    color: white;
-}
 a:hover {
     text-decoration: underline;
     background-color: #1c8abd22;
@@ -19,40 +12,40 @@ a:active {
     gap: 2rem;
 }
 .img {
-    width: 5vmax;
-    max-width: 200px;
+    width: 5rem;
+    max-width: 12.5rem; /* 200px */
 }
 .imgc {
     position: relative;
-    top: 20px;
-    right: 20px;
+    top: 1.25rem; /* 20px */
+    right: 1.25rem; /* 20px */
     display: block;
     margin: 0 auto;
-    width: 3vmax;
-    max-width: 100px;
+    width: 3rem;
+    max-width: 6.25rem; /* 100px */
 }
 .links {
     display: flex;
     position: relative;
-    top: 40px;
-    left: 2px;
-    border: 2px solid #002D8E;
-    width: 60px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 20px;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 3.75rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
     text-decoration: none;
 }
 .linkss {
     display: flex;
     position: relative;
-    top: 40px;
-    left: 2px;
-    border: 2px solid #002D8E;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 20px;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
     text-decoration: none;
 }
 .links:hover,
@@ -64,68 +57,67 @@ a:active {
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: 30px;
-    padding: 12px;
-    border-radius: 20px;
+    height: 1.875rem; /* 30px */
+    padding: 0.75rem; /* 12px */
+    border-radius: 1.25rem; /* 20px */
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     outline: none;
     position: relative;
-    top: 40px;
+    top: 2.5rem; /* 40px */
 }
 .lancamentos{
-    border: 5px solid #002D8E;
-    border-radius: 30px;
+    border: 0.3125rem solid #002D8E; /* 5px */
+    border-radius: 1.875rem; /* 30px */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
-    width: 1200px;
-    height: 500px;
+    margin: 1.25rem; /* 20px */
+    width: 75rem; /* 1200px */
+    height: 31.25rem; /* 500px */
     position: relative;
-    left: 1100px;
-    bottom: 500px;
+    left: 68.75rem; /* 1100px */
+    bottom: 31.25rem; /* 500px */
 }
 
 .sessão{
     height: max-content;
     display: flex;
     justify-content: center;
-    margin: 20px;
-    gap: 100px;
+    margin: 1.25rem; /* 20px */
+    gap: 6.25rem; /* 100px */
     overflow: hidden;
     position: relative;
-    top: 100px;
+    top: 6.25rem; /* 100px */
 }
 
 .imgms {
-    border: 2px solid #002D8E;
+    border: 0.125rem solid #002D8E; /* 2px */
     background-color: #F29E9E;
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
     display: block;
     margin: 0 auto;
-    width: 7vmax;
-    border-radius: 20px;
-    max-width: 400px;
-    height: 300px;
+    width: 12rem;
+    border-radius: 1.25rem; /* 20px */
+    max-width: 25rem; /* 400px */
+    height: 18.75rem; /* 300px */
 }
 .icon-arrow {
-    font-size: 100px;
+    font-size: 6.25rem; /* 100px */
     position: relative;
-    top: 80px;
-    
+    top: 5rem; /* 80px */
 }
 aside {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    width: 200px;
-    height: 600px;
+    width: 12.5rem; /* 200px */
+    height: 37.5rem; /* 600px */
     justify-content: flex-start;
     border: none;
     background-color: #232325;
-    padding: 10px 5px;
+    padding: 0.625rem 0.3125rem; /* 10px 5px */
     box-sizing: border-box;
 }
 
@@ -133,8 +125,8 @@ aside h2, aside strong {
     color: #222;
     font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    margin-bottom: 0.625rem; /* 10px */
+    letter-spacing: 0.0625rem; /* 1px */
 }
 
 aside ul, aside li {
@@ -146,16 +138,16 @@ aside ul, aside li {
 aside li {
     color: #222;
     font-size: 1.1rem;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem; /* 2px */
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03125rem; /* 0.5px */
 }
 
 aside li.subcategoria {
     color: #444;
     font-size: 0.95rem;
     font-weight: normal;
-    margin-left: 10px;
+    margin-left: 0.625rem; /* 10px */
 }
 
 aside li.inativo {
@@ -195,18 +187,40 @@ aside li.subcategoria::after {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
-    padding: 20px;
+    gap: 6.25rem; /* 100px */
+    padding: 1.25rem; /* 20px */
     position: relative;
-    bottom: 500px;
+    bottom: 31.25rem; /* 500px */
 }
 .imgl{
-    width: 400px;
-    height: 500px;
-    border: 2px solid #002D8E;
-    border-radius: 20px;
+    width: 25rem; /* 400px */
+    height: 31.25rem; /* 500px */
+    border: 0.125rem solid #002D8E; /* 2px */
+    border-radius: 1.25rem; /* 20px */
     background-color: #F29E9E;
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
     display: block;
     margin: 0 auto;
+}
+
+
+.img {
+    width: 5rem;
+    max-width: 12.5rem;
+}
+.imgc {
+    position: relative;
+    top: 1.25rem;
+    right: 1.25rem;
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+    max-width: 6.25rem;
+}
+.imgm {
+    display: block;
+    margin: 0 auto;
+    width: 9rem;
+    border-radius: 1.25rem;
+    max-width: 25rem;
 }

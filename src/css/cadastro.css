@@ -1,0 +1,319 @@
+.header {
+    display: flex;
+    gap: 2rem;
+}
+.img {
+    width: 5rem;
+    max-width: 12.5rem; /* 200px */
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #1c8abd22;
+    transition: color 0.2s, background-color 0.2s;
+    font-weight: bold;
+}
+a:active {
+    background-color: #153cbe44;
+}
+.links:hover,
+.linkss:hover {
+    text-decoration: none;
+}
+.imgc {
+    position: relative;
+    top: 1.25rem; /* 20px */
+    right: 1.25rem; /* 20px */
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+    max-width: 6.25rem; /* 100px */
+}
+.links {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 3.75rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+.linkss {
+    display: flex;
+    position: relative;
+    top: 2.5rem;
+    left: 0.125rem;
+    border: 0.125rem solid #002D8E;
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.625rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}
+
+.pesquisa {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 1.875rem; /* 30px */
+    padding: 0.75rem; /* 12px */
+    border-radius: 1.25rem; /* 20px */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    position: relative;
+    top: 2.5rem; /* 40px */
+}
+
+.foto-login{
+    width: 18rem;
+    display: block;
+    margin: 0 auto;
+}
+
+/* email*/
+.email{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 6.875rem; /* 110px */
+}
+/* nome*/
+.nome{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 4.375rem; /* 70px */
+}
+/* nome de usuário*/
+.usuário{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 5rem; /* 80px */
+}
+/* cpf/cnpj*/
+.cpfcnpj{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 5.625rem; /* 90px */
+}
+/* cep*/
+.cep{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
+    top: 6.25rem; /* 100px */
+}
+/* senha*/
+.senha{
+    padding: 0.875rem; /* 14px */
+    height: 70%;
+    width: 60%;
+    border: 0.4375rem solid #002D8E; /* 7px */
+    border-radius: 1.875rem; /* 30px */
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 7.5rem; /* 120px */
+}
+.imgs{
+    display: grid;
+    width: 5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 2.75rem; /* 44px */
+    width: 3.125rem; /* 50px */
+}
+.outras-opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 12.5rem; /* 200px */
+    margin-top: 1.25rem; /* 20px */
+    position: relative;
+    top: 10.625rem; /* 170px */
+}
+.imgo{
+    width: 9.375rem; /* 150px */
+    height: 7.5rem; /* 120px */
+    border: 0.3125rem solid #002D8E; /* 5px */
+    border-radius: 30%;
+    padding: 1.25rem; /* 20px */
+    margin: 0 auto;
+    position: relative;
+    top: 0rem;
+}
+.entrar{
+    display: block;
+    margin: 0 auto;
+    width: 12.5rem; /* 200px */
+    height: 3.75rem; /* 60px */
+    border: 0.25rem solid #002D8E; /* 4px */
+    border-radius: 0.25rem; /* 4px */
+    color: white;
+    font-size: 1.875rem; /* 30px */
+    border-radius: 1.875rem; /* 30px */
+    position: relative;
+    top: 8.75rem; /* 140px */
+}
+.outros{
+    text-align: center;
+    position: relative;
+    width: 43.75rem; /* 700px */
+    margin: 0 auto;
+    height: 3.75rem; /* 60px */
+    top: 11.25rem; /* 180px */
+    font-size: 1.875rem; /* 30px */
+}
+.logine{
+    text-align: center;
+    position: relative;
+    width: 25rem; /* 400px */
+    margin: 0 auto;
+    height: 3.75rem; /* 60px */
+    top: 2.5rem; /* 40px */
+    font-size: 3.125rem; /* 50px */
+    border: 0.25rem solid #002D8E; /* 4px */
+    border-radius: 2.5rem; /* 40px */
+}
+.cadastre-se{
+    text-align: center;
+    position: relative;
+    width: 25rem; /* 400px */
+    margin: 0 auto;
+    height: 3.75rem; /* 60px */
+    top: 5rem; /* 80px */
+    font-size: 1.875rem; /* 30px */
+}
+
+
+
+@media (max-width: 600px) {
+    .foto-login { width: 12rem; }
+
+    strong {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .logo {
+        position: relative;
+        font-size: 300%;
+        top: 0.4rem;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .links {
+        top: 1rem;
+        left: 0;
+        width: 4rem;
+        height: 2.4rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .linkss{
+        top: 1rem;
+        left: 0;
+        width: 2rem;
+        height: 2.4rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    
+    .pesquisa {
+        width: 90%;
+        top: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .imgc{
+        left: 0.01rem;
+        width: 20%;
+        max-width: 100%;
+    }
+
+    .email,
+    .nome,
+    .usuário,
+    .cpfcnpj,
+    .cep,
+    .senha {
+        width: 85%;
+        font-size: 0.9rem;
+        top: 2rem;
+    }
+
+    .outras-opcoes {
+        flex-direction: column;
+        gap: 2rem;
+        top: 4rem;
+    }
+
+    .imgo {
+        width: 7rem;
+        height: 5.5rem;
+        padding: 1rem;
+        left: 10rem;
+    }
+
+    .entrar {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.25rem;
+        top: 3rem;
+    }
+
+    .outros {
+        width: 90%;
+        font-size: 1.25rem;
+        top: 5rem;
+    }
+
+    .logine,
+    .cadastre-se {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
